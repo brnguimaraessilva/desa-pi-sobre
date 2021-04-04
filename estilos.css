@@ -1,0 +1,275 @@
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Inicio */
+.header{
+    background-color: #232323;
+    width: 100%;
+    height: 80px;
+    border-bottom: solid darkred 3px;
+}
+
+.header h1, .header ul{
+    margin-top: 20px;
+}
+
+.header h1{
+    float: left;
+    color: white;
+}
+
+/* Lista */
+.header ul{
+    list-style: none; /* Tira as 'bolinhas' da lista' */
+    float: right;
+}
+
+.header li{
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 17px;
+    padding: 6px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+
+/* Itens da lista */
+.header ul li a{
+    text-decoration: none; /* Tira o sublinhado e a aparencia de 'link' */
+    color: white;
+}
+
+.header .text-red{
+    color: darkred;
+    font-weight: lighter;
+}
+
+.sobre {
+    width: 100%;
+    height: 620px;
+    background-image: url("https://live.staticflickr.com/65535/49717652811_9adc3a4f3b_k.jpg");
+    background-size: 120%;
+    display: flex;
+    border-bottom: solid darkred 3px;
+}
+
+
+.sobre .container h2 {
+    /* font-size: 32px; */
+    color: white;
+    /* font-weight: bolder; */
+    align-items: left;
+    text-align: left;
+}
+
+.sobre .container h3 {
+    font-size: 14px;
+    color: white;
+    font-weight: lighter;
+    margin-top: none;
+    align-items: left;
+    text-align: justify;
+    width: 40%;
+    height: auto;
+}
+
+
+.titulos {
+    width: 100%;
+    height: 80px;
+    background-color: #232323;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    /* border-bottom: solid #232323 3px; */
+    border-top: solid darkred 3px;
+
+}
+
+.titulos h2 {
+    color: darkred;
+}
+
+.trofeus{
+    /* background-color: red; */
+    text-align: center;
+}
+
+.box-item{
+    /* background-color: blueviolet; */
+    display: inline-block;
+    width: 32%;
+}
+
+.box-item img{
+    width: 100px;
+    margin-top: 35px;
+}
+
+.box-item h3 {
+    margin-top: 15px;
+    color: darkred;
+}
+
+/* .rift {
+    margin-top: none;
+} */
+
+.box-item p {
+    margin-top: 10px;
+}
+
+.titulo_time {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    /* border-bottom: solid #232323 3px; */
+    /* margin-top: 10px; */
+}
+
+.titulo_time h2 {
+    color: #232323;
+}
+
+.box{
+    /* background-color: red; */
+    text-align: center;
+}
+
+.box-item{
+    /* background-color: blueviolet; */
+    display: inline-block;
+    width: 32%;
+}
+
+.box-item img{
+    width: 200px;
+    margin-top: 35px;
+}
+
+.box-item h3 {
+    margin-top: 15px;
+    font-weight: lighter;
+    color:#232323;
+}
+
+.box-item p {
+    margin-top: 10px;
+}
+
+.time{
+    /* background-color: red; */
+    text-align: center;
+}
+
+.participante{
+    /* background-color: blueviolet; */
+    display: inline-block;
+    width: 32%;
+}
+
+.participante img{
+    width: 200px;
+    margin-top: 25px;
+}
+
+.participante h3 {
+    margin-top: 15px;
+    font-weight: bolder;
+    color: #232323;
+}
+
+.participante p {
+    margin-top: 10px;
+}
+
+.time2{
+    /* background-color: red; */
+    text-align: center;
+}
+
+.time2 img {
+    width: 200px;
+}
+
+.participante2{
+    /* background-color: blueviolet; */
+    display: inline-block;
+    width: 32%;
+}
+
+.participante2 img{
+    width: 200px;
+    margin-top: 30px;
+}
+
+.participante2 h3 {
+    margin-top: 15px;
+    font-weight: bolder;
+    color: #232323;
+}
+
+.patrocinio {
+    width: 100%;
+    background-color: #232323;
+    display: flex;
+    border-top: solid darkred 3px;
+
+}
+
+.patrocinio img {
+    width: 100%;
+    height: 70px;
+    /* margin-left: 160px; */
+}
+
+.participante2 p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contato {
+    text-align: center;
+    background-color: #232323;
+    border-top: solid darkred 3px;
+    height: auto;
+    background-image: url("https://redcanids.com.br/img/bg-footer.jpg");
+}
+
+.conteudo {
+    display: inline-block;  
+    width: 100%;
+    height: 380px;
+    align-items: center
+}
+
+.conteudo img{
+    margin-top: 80px;
+}
+
+.conteudo h1 {
+    font-size: 14px;
+    color: white;
+    margin-top: 80px;
+    font-weight: lighter;
+}
+
+.logo-top {
+    margin-top: 5px;
+}
